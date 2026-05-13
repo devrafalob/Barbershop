@@ -11,6 +11,8 @@ public class ClientModel {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
+    @Column
     private String nome;
+    @Column
     private String email;
 }
